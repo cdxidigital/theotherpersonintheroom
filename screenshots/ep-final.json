@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/episodes/sarah",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "The Other Person in the Room",
+      "hasCanvas": false,
+      "bodyTextLen": 4307,
+      "bodyTextHash": "893f1887cd36928742af18f4296c8959a49630828f0daaad8ece46dce5908dc7",
+      "bodyTextPrefix": "The other person EPISODES LISTEN THE BOOK VOICES SARAH + ANXIETY",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/ep-final.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "The Other Person in the Room",
+      "hasCanvas": false,
+      "bodyTextLen": 4280,
+      "bodyTextHash": "11ead8471f297a1f11e73e1d1213bb511e6f5f698a509fc5aaa452dd234561e4",
+      "bodyTextPrefix": "The other person MENU SARAH + ANXIETY Sarah & the Clipboard Cont",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/ep-final-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/ep-final.json"
+}

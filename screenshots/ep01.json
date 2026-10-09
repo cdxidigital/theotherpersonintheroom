@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/episodes/sarah",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "The Other Person in the Room",
+      "hasCanvas": false,
+      "bodyTextLen": 4295,
+      "bodyTextHash": "9ce6b5ac19e2d51efb345554e88652e7f3a3ddeda9d36d38daae176b1a3ffb6d",
+      "bodyTextPrefix": "The other person EPISODE 01 · 11 MIN SARAH + ANXIETY Sarah & the",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/ep01.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "The Other Person in the Room",
+      "hasCanvas": false,
+      "bodyTextLen": 4295,
+      "bodyTextHash": "9ce6b5ac19e2d51efb345554e88652e7f3a3ddeda9d36d38daae176b1a3ffb6d",
+      "bodyTextPrefix": "The other person EPISODE 01 · 11 MIN SARAH + ANXIETY Sarah & the",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/ep01-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/ep01.json"
+}

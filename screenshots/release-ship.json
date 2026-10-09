@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/release",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "The Other Person in the Room",
+      "hasCanvas": false,
+      "bodyTextLen": 1479,
+      "bodyTextHash": "c71cd0cbb3c367c5d0f4314089473e2994deaf80d15a446f2dbabb449e39abda",
+      "bodyTextPrefix": "The other person EPISODES LISTEN THE BOOK VOICES WESTERN AUSTRAL",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/release-ship.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "The Other Person in the Room",
+      "hasCanvas": false,
+      "bodyTextLen": 1452,
+      "bodyTextHash": "e9f7f6f6fa4cad08e4d8e85c11199fb41ff884176ae6ac2490db4aac808dd90d",
+      "bodyTextPrefix": "The other person MENU WESTERN AUSTRALIA · VOLUNTEER · NO FEE A r",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/release-ship-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/release-ship.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}

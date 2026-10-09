@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/release",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "The Other Person in the Room",
+      "hasCanvas": false,
+      "bodyTextLen": 1069,
+      "bodyTextHash": "2ffbf9be26a553c79e1fea898030baecfc58d69b0b8ffb103c1ff33cabb9e3c6",
+      "bodyTextPrefix": "The other person VOICE RELEASE WESTERN AUSTRALIA · VOLUNTEER · N",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/release.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "The Other Person in the Room",
+      "hasCanvas": false,
+      "bodyTextLen": 1069,
+      "bodyTextHash": "2ffbf9be26a553c79e1fea898030baecfc58d69b0b8ffb103c1ff33cabb9e3c6",
+      "bodyTextPrefix": "The other person VOICE RELEASE WESTERN AUSTRALIA · VOLUNTEER · N",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/release-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/release.json"
+}
