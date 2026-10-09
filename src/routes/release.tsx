@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useMemo, useRef, useState } from "react";
 import { SiteHeader } from "@/components/site-header";
+import { VoiceVault } from "@/components/voice-vault";
 
 export const Route = createFileRoute("/release")({ component: ReleasePage });
 
@@ -222,14 +223,14 @@ function ReleasePage() {
   }
 
   return (
-    <main className="min-h-screen bg-[#0c0b09] text-[#e7e1d4]">
+    <main className="release-page min-h-screen bg-[#0c0b09] text-[#e7e1d4]">
       <SiteHeader />
 
       <section className="grid gap-12 px-5 py-12 md:grid-cols-12 md:px-10">
         <div className="md:col-span-5">
           <p className="text-[11px] uppercase tracking-[0.28em] text-[#c4a574]">Western Australia · Volunteer · No fee</p>
-          <h1 className="mt-4 font-display text-5xl leading-[0.9] md:text-6xl">A release for the voice, not a wage.</h1>
-          <p className="mt-6 text-[#e7e1d4]/75">For adults lending a voice to Adam James. No financial reward. Copyright is assigned in writing, because a volunteer otherwise keeps it. Moral rights stay with the performer. The consent is a consent, not a waiver.</p>
+          <h1 className="mt-4 font-display text-5xl leading-[0.9] md:text-6xl">Every voice deserves a clear agreement.</h1>
+          <p className="mt-6 text-[#e7e1d4]/75">Every participating voice actor must complete a release before their recordings are used. For adults lending a voice to Adam James. No financial reward. Copyright is assigned in writing, because a volunteer otherwise keeps it. Moral rights stay with the performer. The consent is a consent, not a waiver.</p>
           <p className="mt-4 text-sm text-[#e7e1d4]/55">The release is made on this device. It is not uploaded. It is a project draft, not legal advice. Have a Western Australian solicitor read it before anyone relies on it. Under 18: stop here.</p>
         </div>
 
@@ -299,6 +300,8 @@ function ReleasePage() {
           <pre className="mt-6 max-w-3xl whitespace-pre-wrap bg-[#e7e1d4] p-6 font-display text-sm leading-relaxed text-[#14110c]">{doc}</pre>
         </section>
       )}
+      <VoiceVault />
+      <footer className="site-footer px-5 py-10 md:px-10"><nav aria-label="Footer navigation" className="flex flex-wrap gap-6 text-xs uppercase tracking-[0.17em]"><a href="/">Home</a><a href="/#episodes">Episodes</a><a href="/#book">The book</a><a href="/release" aria-current="page">Voices</a></nav></footer>
     </main>
   );
 }

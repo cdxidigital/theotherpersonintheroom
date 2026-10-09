@@ -145,9 +145,10 @@ function Home() {
         )}
       </section>
 
-      <footer className="border-t border-[#e7e1d4]/10 px-5 py-10 text-sm text-[#e7e1d4]/50 md:px-10">
+      <footer className="site-footer border-t border-[#e7e1d4]/10 px-5 py-10 text-sm text-[#e7e1d4]/50 md:px-10">
+        <nav aria-label="Footer navigation" className="mb-10 flex flex-wrap gap-6 text-xs uppercase tracking-[0.17em]"><a href="/#episodes">Episodes</a><a href="/episodes/sarah">Listen</a><a href="/#book">The book</a><Link to="/release">Voices · Releases</Link></nav>
         <p>If a conversation lands heavily: Lifeline 13 11 14 · Beyond Blue 1300 22 4636.</p>
-        <p className="mt-3">Adam James, host. Perth. <Link to="/release" className="text-[#c4a574]">Voice release</Link></p>
+        <p className="mt-3">Adam James, host. Perth. <Link to="/release" className="text-[#c4a574]">Voices · Actor releases</Link></p>
       </footer>
     </main>
   );
